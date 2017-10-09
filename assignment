@@ -1,0 +1,19 @@
+1. visit the following server http://165.227.88.53 and download the page there 
+   you can use wget to download the page
+
+2. research and figure out a tool that you will use to transfer this downloaded page from your windows machine to your linux machine
+
+3. Set up an apache web server to deploy that downloaded page
+
+4. Set up and apache tomcat server 
+   and then go to the below website and download the war file "it will be under the link (here) "
+   https://tomcat.apache.org/tomcat-6.0-doc/appdev/sample/
+
+5. finally create a filesystem called /mickey_mouse
+   let this filesystem have a size of 800mb
+   within this file system there should be a sub directory called mansion
+   let the mansion directory be owned by a user called dab
+   and finally share this directory as read only to another server which you will also create
+
+
+Good luck
